@@ -1,15 +1,44 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import javax.swing.*;
+import java.awt.*;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+public class Main {
+    JFrame windows;
+    Container con;
+    JPanel panel;
+    JLabel label;
+    ImageIcon image;
+
+    public static void main(String[] args) {
+        new Main();
+    }
+    public Main(){
+        windows = new JFrame();
+
+        windows.setSize(380,700);
+        windows.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        windows.getContentPane().setBackground(Color.darkGray);
+        windows.setLayout(null);
+
+        panel = new JPanel();
+
+        panel.setBounds(0,0,380,690);
+        panel.setBackground(Color.white);
+
+        label = new JLabel();
+        image = new ImageIcon(".//src//images//Фото 27.11.2024, 12.23.jpg");
+        label.setIcon(image);
+
+        if (image.getIconWidth() == -1) {
+            System.out.println("Сүрөт жүктөлгөн жок! Жолду текшериңиз.");
         }
+
+
+
+
+
+        con = windows.getContentPane();
+        panel.add(label);
+        con.add(panel);
+        windows.setVisible(true);
     }
 }

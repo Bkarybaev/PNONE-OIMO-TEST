@@ -35,11 +35,8 @@ public class Main {
 
 
         System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
 
-
+        System.out.println("not fount");
 
         con = windows.getContentPane();
         panel.add(label);

@@ -32,11 +32,7 @@ public class Main {
         if (image.getIconWidth() == -1) {
             System.out.println("Сүрөт жүктөлгөн жок! Жолду текшериңиз.");
         }
-
-
-        System.out.println("hello world");
-
-
+        System.out.println("not fount");
 
         con = windows.getContentPane();
         panel.add(label);

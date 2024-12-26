@@ -17,6 +17,7 @@ public class Main {
         windows.setSize(380,700);
         windows.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         windows.getContentPane().setBackground(Color.darkGray);
+        windows.setLocationRelativeTo(null);
         windows.setLayout(null);
 
         panel = new JPanel();
@@ -33,6 +34,7 @@ public class Main {
         }
 
 
+        System.out.println("hello world");
 
 
 

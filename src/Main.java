@@ -26,12 +26,8 @@ public class Main {
         panel.setBackground(Color.white);
 
         label = new JLabel();
-        image = new ImageIcon(".//src//images//Фото 27.11.2024, 12.23.jpg");
-        label.setIcon(image);
 
-        if (image.getIconWidth() == -1) {
-            System.out.println("Сүрөт жүктөлгөн жок! Жолду текшериңиз.");
-        }
+
 
 
         System.out.println("hello world");

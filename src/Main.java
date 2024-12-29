@@ -14,7 +14,7 @@ public class Main {
     public Main(){
         windows = new JFrame();
 
-        windows.setSize(380,700);
+        windows.setSize(480,900);
         windows.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         windows.getContentPane().setBackground(Color.darkGray);
         windows.setLocationRelativeTo(null);
@@ -22,7 +22,7 @@ public class Main {
 
         panel = new JPanel();
 
-        panel.setBounds(0,0,380,690);
+        panel.setBounds(0,0,480,990);
         panel.setBackground(Color.white);
 
         label = new JLabel();

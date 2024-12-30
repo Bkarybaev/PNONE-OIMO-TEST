@@ -6,7 +6,7 @@ public class Main {
     Container con;
     JPanel panel;
     JLabel label;
-    ImageIcon image;
+    String image;
 
     public static void main(String[] args) {
         new Main();
@@ -20,6 +20,7 @@ public class Main {
         windows.setLocationRelativeTo(null);
         windows.setLayout(null);
 
+
         panel = new JPanel();
 
         panel.setBounds(0,0,480,990);
@@ -28,11 +29,6 @@ public class Main {
         label = new JLabel();
 
 
-
-
-        System.out.println("hello world");
-
-        System.out.println("not fount");
 
         con = windows.getContentPane();
         panel.add(label);

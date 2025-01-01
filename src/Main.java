@@ -13,13 +13,35 @@ public class Main {
     }
     public Main(){
         windows = new JFrame();
-        windows.setSize(300,350);
-        windows.setLocation(70,60);
+        windows.setSize(400,450);
         windows.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         windows.getContentPane().setBackground(Color.darkGray);
         windows.setLocationRelativeTo(null);
         windows.setLayout(null);
 
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
         System.out.println("hello world");
         panel = new JPanel();
         panel.setBounds(0,0,480,990);

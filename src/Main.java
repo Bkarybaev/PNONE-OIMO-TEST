@@ -27,22 +27,7 @@ public class Main {
         System.out.println("hello world");
         System.out.println("hello world");
         System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
+
         panel = new JPanel();
         panel.setBounds(0,0,480,990);
         panel.setBackground(Color.white);

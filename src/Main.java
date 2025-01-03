@@ -18,7 +18,6 @@ public class Main {
         windows.getContentPane().setBackground(Color.darkGray);
         windows.setLocationRelativeTo(null);
         windows.setLayout(null);
-
         panel = new JPanel();
         panel.setBounds(0,0,480,990);
         panel.setBackground(Color.white);

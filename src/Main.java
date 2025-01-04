@@ -13,13 +13,13 @@ public class Main {
     }
     public Main(){
         windows = new JFrame();
-        windows.setSize(400,450);
+        windows.setSize(500,750);
         windows.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         windows.getContentPane().setBackground(Color.darkGray);
         windows.setLocationRelativeTo(null);
         windows.setLayout(null);
         panel = new JPanel();
-        panel.setBounds(0,0,480,990);
+        panel.setBounds(110,110,480,990);
         panel.setBackground(Color.white);
         label = new JLabel();
         con = windows.getContentPane();

@@ -19,7 +19,7 @@ public class Main {
         windows.setLocationRelativeTo(null);
         windows.setLayout(null);
         panel = new JPanel();
-        panel.setBounds(110,110,480,990);
+        panel.setBounds(0,0,580,990);
         panel.setBackground(Color.white);
         label = new JLabel();
         con = windows.getContentPane();

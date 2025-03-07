@@ -13,6 +13,7 @@ public class Main {
     }
     public Main(){
         windows = new JFrame();
+
         windows.setSize(500,750);
         windows.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         windows.getContentPane().setBackground(Color.darkGray);

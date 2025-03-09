@@ -14,18 +14,10 @@ public class Main {
     public Main(){
         windows = new JFrame();
         windows.setSize(500,750);
-
-
-
-
-
-
-
-
-
         System.out.println("hello world");
         windows.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         windows.getContentPane().setBackground(Color.darkGray);
+
         windows.setLocationRelativeTo(null);
         windows.setLayout(null);
         panel = new JPanel();

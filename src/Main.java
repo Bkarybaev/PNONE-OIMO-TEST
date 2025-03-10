@@ -18,6 +18,7 @@ public class Main {
         windows.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         windows.getContentPane().setBackground(Color.darkGray);
         windows.setLocationRelativeTo(null);
+
         windows.setLayout(null);
         panel = new JPanel();
         panel.setBounds(0,0,580,990);

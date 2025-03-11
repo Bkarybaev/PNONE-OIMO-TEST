@@ -27,5 +27,7 @@ public class Main {
         panel.add(label);
         con.add(panel);
         windows.setVisible(true);
+
+
     }
 }

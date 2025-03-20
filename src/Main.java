@@ -27,8 +27,7 @@ public class Main {
         con = windows.getContentPane();
         panel.add(label);
         con.add(panel);
-
-
         windows.setVisible(true);
+
     }
 }
